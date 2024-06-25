@@ -1,6 +1,6 @@
 def write_text_to_log_file(filepath:str, text: str):
     try:
-        with open(file, 'a') as file:
+        with open(filepath, 'a') as file:
             file.write(text + '\n')
    
     except IOError as e:
