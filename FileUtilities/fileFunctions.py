@@ -31,7 +31,7 @@ def  numberOfFiles(path):
 def getSizeOfFile(file_path):
     try:
         if os.path.isfile(file_path):
-            return os.path.getsize(file_path)/1024
+            return round(os.path.getsize(file_path)/1024)
         else:
             return None
     except Exception as e:
