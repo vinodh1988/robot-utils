@@ -26,16 +26,16 @@ def  numberOfFiles(path):
             files=[f for  f in os.listdir(path) if os.path.isfile(os.path.join(path,f))]
             return len(files)
     except Exception as e:
-        raise e
+        return None
     
-def getFileSize(file_path):
+def getSizeOfFile(file_path):
     try:
         if os.path.isfile(file_path):
             return os.path.getsize(file_path)/1024
         else:
-            raise Exception
+            return None
     except Exception as e:
-        raise Exception
+        return None
 
 
 

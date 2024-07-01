@@ -1,1 +1,1 @@
-from .fileFunctions import copyFile,moveFile
+from .fileFunctions import copyFile,moveFile,numberOfFiles,getSizeOfFile
