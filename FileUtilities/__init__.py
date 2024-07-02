@@ -1,2 +1,2 @@
 from .fileFunctions import copyFile,moveFile,numberOfFiles,getSizeOfFile
-from .moreFiles import logDictionary
+from .moreFiles import logDictionary,read_csv_to_array_of_dictionary
